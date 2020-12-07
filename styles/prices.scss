@@ -8,9 +8,11 @@
 .price-card {
   display: flex;
   flex-direction: column;
+  position: relative;
   margin-right: 18px;
   max-width: 380px;
   background-color: #334247;
+  overflow: hidden;
 
   &:last-child {
     margin-right: 0;
@@ -28,6 +30,21 @@
       line-height: 24px;
       font-weight: 400;
       display: block;
+    }
+  }
+  &__popular {
+    position: absolute;
+    right: -32px;
+    width: 147px;
+    top: 25px;
+    text-align: center;
+    transform: rotate(45deg);
+    background-color: #dc3f45;
+
+    &-text {
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 27px;
     }
   }
   &__price {
