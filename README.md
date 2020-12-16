@@ -2,11 +2,6 @@
 
 ### QUICK START
 
-In the project directory, you can run:
-
-npm i
-
-npm start
 
 Runs the app in the development mode.
 Open https://nexend.github.io/section-prices/ to view in the browser.
